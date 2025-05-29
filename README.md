@@ -5,7 +5,7 @@ Designed for use alongside a web-server like nginx acting as a reverse proxy. Wi
 `https://mywebrtcapp.site` Client served<br/>
 `wss://mywebrtcapp.site/ws` WebSocket server
 
-Good way to save yourself time and effort configuring cross origin poliicies as would be the case directly accessing a seperate port.
+Good way to save yourself time and effort configuring cross origin policies as would be the case directly accessing a seperate port.
 
  Sample configuration for a reverse proxy via nginx:
  ```
