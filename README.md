@@ -1,6 +1,8 @@
 # webrtc-signaling-server
 A simple extendable WebRTC signaling server implementation
 
+This implmentation targets applications that need to share real time data over a data channel, but can be extended for media data exchange.
+
 Designed for use alongside a web-server like nginx acting as a reverse proxy. With the proxy, you can serve your client and websocket server **from the same origin**. For example:<br/>
 `https://mywebrtcapp.site` Client served<br/>
 `wss://mywebrtcapp.site/ws` WebSocket server
