@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "start": "node --experimental-strip-types --env-file=.env src/signal.ts"
+  },
+  "keywords": [],
+  "author": "jkesle",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.15.24",
+    "@types/ws": "^8.18.1",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "ws": "^8.18.2"
+  }
+}
