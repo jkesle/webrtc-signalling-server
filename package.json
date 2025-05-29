@@ -1,12 +1,11 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "private": true,
+  "name": "webrtc-signaling-server",
+  "version": "0.0.1",
   "description": "",
   "scripts": {
     "start": "node --experimental-strip-types --env-file=.env src/signal.ts"
   },
-  "keywords": [],
+  "keywords": ["webrtc", "wrtc-signal", "signaling"],
   "author": "jkesle",
   "license": "MIT",
   "type": "module",
